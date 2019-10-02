@@ -1,0 +1,12 @@
+@media (min-width: 992px){
+    .footer-text{
+        display: inline;
+    }
+    .voting{
+        float: right;
+    }
+}
+
+.voting a{
+    text-decoration: none;
+}

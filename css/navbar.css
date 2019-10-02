@@ -1,0 +1,63 @@
+@media (min-width: 320px) and (max-width: 991px){
+    .searchbar{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .login{
+        display:flex;
+    }
+
+    #login{
+        flex: 1;
+    }
+
+    #home{
+        flex: 1;
+    }
+
+    #account{
+        flex: 1;
+    }
+
+    #register{
+        flex: 1;
+    }
+
+    #search{
+        flex:8;
+    }
+
+    #button{
+        flex:1;
+    } 
+}
+
+@media (min-width: 992px){
+    #search{
+        width: 35em;
+    }
+}
+
+
+.modal-content{
+    background: #343a40;
+}
+
+.modal-content h3{
+    color: white;
+}
+
+.modal-header{
+    border-bottom: 0;
+}
+
+.modal-footer{
+    border-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
